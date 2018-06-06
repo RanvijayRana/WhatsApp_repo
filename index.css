@@ -1,0 +1,43 @@
+:root{
+	font-size: 16px;
+}
+
+.bg_blue{
+	background-color: blue;
+	border: 1px solid #35eea4;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+}
+
+.bg_red{
+	background-color : red;
+	border: 1px solid #35eea4;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+}
+
+.height_heading{
+	padding-top: 1%;
+	height: 15vh;
+}
+
+.image_holder{
+	margin: 1%;
+	height: 10vh;
+	width: 15%;
+	align-self: center;
+	background-color: yellow;
+	border: 1px solid #35eea4;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+}
+
+.list{
+	height: 80vh;
+}
+
+.flexa{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
