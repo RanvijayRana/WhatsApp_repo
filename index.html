@@ -1,77 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
 		<title>WhatsApp</title>
 		<link rel = "stylesheet" type = "text/css" href = "index.css">
+		<!-- CDN -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
-		      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" 
-			  crossorigin="anonymous">
+		integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" 
+		crossorigin="anonymous">
 	</head>
 	<body>
-
-		<div class = "container-fluid">
-			<div class = "row height_heading">
-				<div class = "col-sm-4 bg_blue flexa">
-						<div class = "image_holder">
-							<img src="pp.jpg" class = "img-fluid rounded-circle" alt="Responsive image" onclick="changeProfile()">
-						</div>
-						<p>Ranvijay Rana</p>
-					<div class = "flexa">
-						<div role="button" title="Status"><span data-icon="status-v3-unread" class=""><svg id="df9d3429-f0ef-48b5-b5eb-f9d27b2deba6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="#727A7E" d="M12.072 1.761a10.05 10.05 0 0 0-9.303 5.65.977.977 0 0 0 1.756.855 8.098 8.098 0 0 1 7.496-4.553.977.977 0 1 0 .051-1.952zM1.926 13.64a10.052 10.052 0 0 0 7.461 7.925.977.977 0 0 0 .471-1.895 8.097 8.097 0 0 1-6.012-6.386.977.977 0 0 0-1.92.356zm13.729 7.454a10.053 10.053 0 0 0 6.201-8.946.976.976 0 1 0-1.951-.081v.014a8.097 8.097 0 0 1-4.997 7.209.977.977 0 0 0 .727 1.813l.02-.009z"></path><path fill="#009588" d="M19 1.5a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"></path></svg></span></div>
-						<div role="button" title="New chat"><span data-icon="chat" class=""><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path opacity=".55" fill="#263238" d="M19.005 3.175H4.674C3.642 3.175 3 3.789 3 4.821V21.02l3.544-3.514h12.461c1.033 0 2.064-1.06 2.064-2.093V4.821c-.001-1.032-1.032-1.646-2.064-1.646zm-4.989 9.869H7.041V11.1h6.975v1.944zm3-4H7.041V7.1h9.975v1.944z"></path></svg></span></div>
-						<div role="button" title="Menu"><span data-icon="menu" class=""><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="#263238" fill-opacity=".6" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg></span></div>
-					</div>
-				</div>
-				<div class = "col-sm-8 bg_red">content</div>
-			</div>
+		<div class = "container-fluid containerFrame">
 			<div class = "row">
-				<div class = "col-sm-4 bg_blue">
-					<div class = "image_holder">
-						<img src="pp.jpg" class = "img-fluid rounded-circle" alt="Responsive image">
+				<div class = "col-sm-5 titleBar">
+					<div class = "titleTop">
+						ranvijay
 					</div>
-					<div role="button" title="Status"><span data-icon="status-v3-unread" class=""></span></div>
-					<h6>rana </h6>
-					<hr>
-						
-						<div class = "image_holder">
-						<img src="pp.jpg" class = "img-fluid rounded-circle" alt="Responsive image">
+					
+					<div class = "iconContainer">
+						<div class = "imgCon"><img src = "status.png" class = "img-fluid"></div>
+						<div class = "imgCon"><img src = "newChat.png" class = "img-fluid"></div>
+						<div class = "imgCon"><img src = "menuIcon.png" class = "img-fluid"></div>
 					</div>
-					<h6>rana </h6>
-						<hr>
-						
-						<div class = "image_holder">
-						<img src="pp.jpg" class = "img-fluid rounded-circle" alt="Responsive image">
-					</div>
-					<h6>rana </h6>
-						<hr>
-						
-				</div>
-				<div class = "col-sm-8 bg_red">
-					<div class = "image_holder">
-						
-						<h6>ranaRANVIJAY</h6>
-						<hr>
-					</div>
-						
-				</div>
-				
+				</div>				
 			</div>
+			
+			<div class = "row">
+				<div class = "col-sm-5 search">
+					<div class = "iconContainer">
+						<div class = "imgCon"><img src = "search.png" class = "img-fluid"></div>
+					</div>
+				</div>				
+			</div>
+			
+			<div class = "row">
+				<div class = "col-sm-5 messageSection">
+					<div class = "singleChat">
+						<div class = "imageContainer">
+							<div class = "imgCon"><img src = "dig.jpg" class = "img-fluid"></
+						</div>
+						<div class = "contentContainer">
+							<p class = "userName"><name>Sonu</name><span>11:45pm</span></p>
+							<p class = "chatContent">Whats-up bro</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+			
 		</div>
-		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
-			crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" 
-			integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" 
-			crossorigin="anonymous"></script>
-		<script>
-			$(function () {
-				$('[data-toggle="popover"]').popover()
-			})
-		</script>
+	
+		<!-- bootstrap script -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+		crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+		integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+		crossorigin="anonymous"></script>
 	</body>
 </html>
