@@ -36,6 +36,7 @@
 }
 
 .iconContainer .iconCon{
+	border: 1px solid #35eea4;
 	display: flex;
 	width: 30%;
 	height: 100%;
@@ -56,7 +57,7 @@
 	flex-wrap: wrap;
 	height: 12vh;
 	background-color: red;
-	//border: 1px solid #35eea4;
+	border: 1px solid #35eea4;
 }
 
 .singleChat:hover {
@@ -66,7 +67,7 @@
 
 .singleChat:after  {
 	width: 80%;
-	height: 0.6px;
+	height: 1px;
 	content: "";
 	background-color: black;
 	left: 50%;
