@@ -119,8 +119,31 @@
 }
 
 .chatContent {
-	font-size: 0.5rem;
-	height: 1vh;
+	width: 100%;
+	font-family: "Times New Roman", Times, bold;
+	font-size: 0.8rem;
+	height: 2vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.chatContent span {
+	width: 6%;
+	height: 3vh;
+	padding: 0.3vh 0vh 0vh 0.8vh;
+	align-items: center;
+	font-size: 0.8rem;
+	border-radius: 1vh;
+	color: white;
+	background-color: black;
+}
+
+.box {
+	height : 81.5vh;
+	overflow-y: auto;
+	overflow-x: hidden;
 	
 }
 
