@@ -56,7 +56,7 @@
 	flex-wrap: wrap;
 	height: 12vh;
 	background-color: red;
-	border: 1px solid #35eea4;
+	//border: 1px solid #35eea4;
 }
 
 .singleChat:hover {
@@ -65,20 +65,20 @@
 }
 
 .singleChat:after  {
-	width: 50%;
-	height: 1px;
+	width: 80%;
+	height: 0.6px;
 	content: "";
 	background-color: black;
 	left: 50%;
-	transform: translate(-50%,0);
-	position: relative;
+	transform: translate(-40%,0);
+	position: absolute;
 	bottom: 0;
 }
 
 .imageContainer {
 	width: 09vh;
 	height: 11vh;
-	padding: 1vh 1vh 1vh 0vh;
+	padding: 1vh 0vh 1vh 0vh;
 }
 
 .imageContainer .imgCon{
