@@ -1,0 +1,58 @@
+:root {
+	font-size: 16px;
+}
+
+.containerFrame {
+	box-sizing: border-box;
+	border: solid 5px blue;
+	background-color: yellow;
+	height: 100vh;
+}
+
+.profile {
+	background-color: #C0AD87;
+	height: 15vh;
+	align-items: center;
+}
+
+.img {
+	background-color: #C6ECFA;
+	height: 40vh;
+}
+
+.imageContainer {
+	display: flex;
+	margin: 6% 0% 0% 22%;
+	width: 50%;
+	height: 80%;
+}
+
+.name {
+	background-color: white;
+	height: 15vh;
+	align-items: center;
+}
+
+.msg {
+	background-color: #68FBAB;
+	height: 15vh;
+	align-items: center;
+}
+
+.about {
+	background-color: white;
+	height: 12vh;
+	align-items: center;
+}
+
+.messageArea {
+	background-color : white;
+	height: 80vh;
+	border: 1px solid #35eea4;
+}
+
+.message {
+	background-color : silver;
+	height: 18vh;
+	border: 1px solid #35eea4;
+}
