@@ -154,17 +154,10 @@
 	border: 1px solid #35eea4;
 }
 
-.messagea {
+.message {
 	background-color : silver;
 	height: 15vh;
 	border: 1px solid #35eea4;
 }
-
-.patt {
-	display: block;
-	//flex-direction: column;
-}
-
-div {margin: 0px; padding: 0px; }
 
 
