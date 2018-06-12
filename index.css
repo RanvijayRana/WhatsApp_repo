@@ -142,9 +142,29 @@
 
 .box {
 	height : 81.5vh;
-	overflow-y: auto;
+	overflow-y: scroll;
 	overflow-x: hidden;
-	
+	background-color: red;
+	border: 5px solid black;
 }
+
+.messageArea {
+	background-color : white;
+	height: 73.5vh;
+	border: 1px solid #35eea4;
+}
+
+.messagea {
+	background-color : silver;
+	height: 15vh;
+	border: 1px solid #35eea4;
+}
+
+.patt {
+	display: block;
+	//flex-direction: column;
+}
+
+div {margin: 0px; padding: 0px; }
 
 
