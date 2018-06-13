@@ -39,26 +39,26 @@
 .iconCon{
 	border: 1px solid #35eea4;
 	display: flex;
-	width: 30%;
+	width: 3vw;
 	height: 100%;
 	border: 1px solid #35eea4;
 }
 
 .search {
 	background-color: #f86856;
-	height: 7vh;
+	height: 10vh;
 	justify-content: space-between;
 	align-items: center;
 	display: flex;
 }
 
 .searchContainer {
-	height: 66%;
-	width: 49%;
+	height: 50%;
+	width: 82%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: center;
+	//align-items: center;
 	border: 1px solid #35eea4;
 }
 
@@ -141,18 +141,18 @@
 }
 
 .chatContent span {
-	width: 6%;
-	height: 3vh;
-	padding: 0.3vh 0vh 0vh 0.8vh;
+	width: 1.5vw;
+	height: 4vh;
+	padding: 0vh 0vh 0vh 0.8vh;
 	align-items: center;
 	font-size: 0.8rem;
 	border-radius: 1vh;
 	color: white;
-	background-color: black;
+	background-color: green;
 }
 
 .box {
-	height : 81.5vh;
+	height : 78vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	background-color: white;
