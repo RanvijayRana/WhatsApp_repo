@@ -20,8 +20,8 @@
 }
 
 .titleTop {
-	width: 8%;
-	height: 11vh;
+	width: 11%;
+	height: 10vh;
 	padding-top: 2vh
 }
 
@@ -166,7 +166,7 @@
 
 .message {
 	background-color : silver;
-	height: 15vh;
+	height: 14.6vh;
 	border: 1px solid #35eea4;
 }
 
