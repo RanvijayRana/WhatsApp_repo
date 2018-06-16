@@ -156,8 +156,8 @@
 }
 
 .chatContent span {
-	width: 1.5vw;
-	height: 4vh;
+	width: 6%;
+	height: 5vh%;
 	padding: 0vh 0vh 0vh 0.8vh;
 	align-items: center;
 	font-size: 0.8rem;
@@ -173,6 +173,23 @@
 	background-color: white;
 }
 
+.single {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 10vh;
+	background-color: #E9F8FC;
+}
+
+.imageConta {
+	border: 1px solid #35eea4;
+	width: 10%;
+	height: 8vh;
+	padding: 0.5vh 0vh 0.5vh 0vh;
+	margin-top: 1vh;
+}
+
 .messageArea {
 	background-color : white;
 	height: 73.5vh;
@@ -182,12 +199,36 @@
 .message {
 	background-color : silver;
 	height: 14.6vh;
-	border: 1px solid #35eea4;
+	border: 2px solid red;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
-.parentRow {
-	overflow: hidden;
-	
+.wrapper {
+	border: 1px solid #35eea4;
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 }
+
+.textS {
+	width : 89%;
+		height: 50%;
+}
+
+.send {
+	width : 9%;
+	height: 50%;
+	border: 1px solid red;
+	display: flex;
+}
+
+
+
 
 
