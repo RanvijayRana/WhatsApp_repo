@@ -20,9 +20,10 @@
 }
 
 .titleTop {
-	width: 11%;
-	height: 10vh;
-	padding-top: 2vh
+	border: 1px solid #35eea4;
+	width: 12%;
+	height: 75%;
+
 }
 
 .iconContainer {
@@ -39,7 +40,7 @@
 .iconCon{
 	border: 1px solid #35eea4;
 	display: flex;
-	width: 3vw;
+	width: 25%;
 	height: 100%;
 	border: 1px solid #35eea4;
 }
@@ -54,12 +55,24 @@
 
 .searchContainer {
 	height: 50%;
-	width: 82%;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	//align-items: center;
 	border: 1px solid #35eea4;
+}
+
+.searchContainer .iconCon{
+	border: 1px solid #35eea4;
+	display: flex;
+	width: 12%;
+	height: 100%;
+	border: 1px solid #35eea4;
+}
+
+.textSize {
+	width: 88%;
+	height: 100%
 }
 
 .singleChat {
@@ -88,15 +101,17 @@
 }
 
 .imageContainer {
-	width: 12%;
-	height: 11vh;
-	padding: 1vh 0vh 1vh 0vh;
+	border: 1px solid #35eea4;
+	width: 15%;
+	height: 10vh;
+	padding: 0.5vh 0vh 0.5vh 0vh;
+	margin-top: 1vh;
 }
 
-.imageContainer .imgCon{
+.imgCon{
 	display: flex;
 	width: 100%;
-	height: 10vh;
+	height: 100%;
 }
 
 .contentContainer {
@@ -168,6 +183,11 @@
 	background-color : silver;
 	height: 14.6vh;
 	border: 1px solid #35eea4;
+}
+
+.parentRow {
+	overflow: hidden;
+	
 }
 
 
