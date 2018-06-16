@@ -20,10 +20,8 @@
 }
 
 .titleTop {
-	border: 1px solid #35eea4;
 	width: 12%;
 	height: 75%;
-
 }
 
 .iconContainer {
@@ -34,7 +32,6 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	border: 1px solid #35eea4;
 }
 
 .iconCon{
@@ -48,7 +45,6 @@
 .search {
 	background-color: #f86856;
 	height: 10vh;
-	justify-content: space-between;
 	align-items: center;
 	display: flex;
 }
@@ -59,7 +55,6 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	border: 1px solid #35eea4;
 }
 
 .searchContainer .iconCon{
@@ -67,7 +62,6 @@
 	display: flex;
 	width: 12%;
 	height: 100%;
-	border: 1px solid #35eea4;
 }
 
 .textSize {
@@ -101,7 +95,6 @@
 }
 
 .imageContainer {
-	border: 1px solid #35eea4;
 	width: 15%;
 	height: 10vh;
 	padding: 0.5vh 0vh 0.5vh 0vh;
@@ -183,7 +176,6 @@
 }
 
 .imageConta {
-	border: 1px solid #35eea4;
 	width: 10%;
 	height: 8vh;
 	padding: 0.5vh 0vh 0.5vh 0vh;
@@ -193,13 +185,11 @@
 .messageArea {
 	background-color : white;
 	height: 73.5vh;
-	border: 1px solid #35eea4;
 }
 
 .message {
 	background-color : silver;
 	height: 14.6vh;
-	border: 2px solid red;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -207,7 +197,6 @@
 }
 
 .wrapper {
-	border: 1px solid #35eea4;
 	width: 90%;
 	height: 90%;
 	display: flex;
@@ -218,13 +207,12 @@
 
 .textS {
 	width : 89%;
-		height: 50%;
+	height: 50%;
 }
 
 .send {
 	width : 9%;
 	height: 50%;
-	border: 1px solid red;
 	display: flex;
 }
 

@@ -41,7 +41,7 @@
 
 .about {
 	background-color: white;
-	height: 12vh;
+	height: 13vh;
 	align-items: center;
 }
 
@@ -55,7 +55,6 @@
 }
 
 .imageConta {
-	border: 1px solid #35eea4;
 	width: 10%;
 	height: 100%;
 	padding: 0.5vh 0vh 0.5vh 0vh;
@@ -75,7 +74,6 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 0% 3% 0% 3%;
-	border: 1px solid #35eea4;
 	
 }
 
@@ -111,13 +109,11 @@
 .messageArea {
 	background-color : white;
 	height: 73.5vh;
-	border: 1px solid #35eea4;
 }
 
 .message {
 	background-color : silver;
 	height: 14.6vh;
-	border: 2px solid red;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -125,7 +121,6 @@
 }
 
 .wrapper {
-	border: 1px solid #35eea4;
 	width: 90%;
 	height: 90%;
 	display: flex;
@@ -142,6 +137,5 @@
 .send {
 	width : 9%;
 	height: 50%;
-	border: 1px solid red;
 	display: flex;
 }
